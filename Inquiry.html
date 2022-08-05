@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Inquiry : </title>
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<link href="css/flexslider.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<!--<script src="https://use.fontawesome.com/2883524b07.js"></script>-->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script> 
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+<header class="header blue">
+<div class="top-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-md-4">
+          
+        </div>
+        <div class="col-sm-7 col-md-8 text-right">
+          <div class="top-right-sec"> 
+         <span class="phone-top"><i class="fa fa-whatsapp" aria-hidden="true"></i><a href="tel:6366253902"> +91 6366253902</a></span> 
+          <span class="phone-top"><i class="fa fa-phone" aria-hidden="true"></i> </i><a href="tel:9175695884"> +91 9175695884</a></span>
+           
+           </div>
+          <div class="top-social-icon">
+            <ul>
+              <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              
+              <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container"> 
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+         <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+
+       <a href="index.html" class="navbar-brand desktop-logo"><img class="img-responsive" src="images/Logo.jpg"/></a>
+         
+         </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse" >
+        <ul class="nav navbar-nav navbar-right">
+          <li> <a href="index.html">Home </a></li>
+         <li> <a href="Services.html">Services</a></li>
+           <li> <a class="active" href="#">Inquiry</a></li>
+  			<li> <a href="Contact-Us.html">Contact Us</a> </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </div>
+    <!-- /.container --> 
+  </nav>
+</header>
+
+
+<div class="container ">
+  <div class="row">
+    <div class="col-sm-12">
+     <h1 class="heading-title">Drop Your <span>Inquiry</span></h1>
+      <div class="company" >
+        <h3>Thank you for your feedback and interest in HP LAPTOP SERVICES CENTER</h3>
+        <p>At HP LAPTOP SERVICES CENTER, we believe in a mutually beneficial relationship between ourselves and our customers. Thank you for your feedback and we look forward to hearing from you.</p>
+      </div>
+    </div>
+  </div>
+ <div class="row form-sec">
+            <div class="col-sm-10 col-md-9">
+                <form id="htmlform" name="htmlform" class="contact-form" action="html_form_send.php" method="post">
+                    <span class="success-message"></span>
+                    <input type="hidden" name="formName" id="formName" value="feedback" />
+                    <div class="row">
+                        <div class="form-group">
+                            <label class="col-sm-4"> Name :</label>
+                            <div class="col-sm-8">
+                                <input class="search-text form-control" placeholder="Your Name" name="name" type="text">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4"> Email :</label>
+                            <div class="col-sm-8">
+                                <input class="search-text form-control" placeholder="Email" name="email" id="contactEmail" type="text" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4">Phone No. :</label>
+                            <div class="col-sm-8">
+                                <input class="search-text form-control" placeholder="Phone No" name="phone" id="contactPhone" type="tel" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4">City : </label>
+                            <div class="col-sm-8">
+                                <input class="search-text form-control" placeholder="City" name="city" id="contactCity" type="text" />
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="col-sm-4"> Message : </label>
+                            <div class="col-sm-8">
+                                <textarea class="form-control" rows="5" placeholder="Message" name="message" id="contactMessage"></textarea>
+                            </div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <label class="col-sm-12 col-sm-4"></label>
+                            <div class="col-sm-12 col-sm-8">
+                                <input type="submit" class="read-more" style=" padding: 9px 46px;" id="submit" value="Submit" onClick="" />
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+
+
+<footer>
+  <div class="top-footer">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-4">
+          <h3>Quick Links</h3>
+          <ul class="footer-link">
+             <li><a href="index.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Home</a></li>
+            
+          <li><a href="Services.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Services</a></li>
+             <li><a href="#"><i class="fa fa-caret-right" aria-hidden="true"></i> Inquiry</a></li>
+        
+             <li><a href="Contact-Us.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4 "> 
+        <h3>Disclaimer</h3>
+          <p >The Brand Name HP and logo belong to the rightful and respected owner.   </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Contact Us</h3>
+          
+           
+          <ul class="footer-link">
+           <li><a href="tel:8482810507"><i class="fa fa-caret-right" aria-hidden="true"></i> 8482810507</a></li>
+           <li><a href="tel:7758807201"><i class="fa fa-caret-right" aria-hidden="true"></i> 7758807201</a></li>
+           <li><a href="tel:9167349132"><i class="fa fa-caret-right" aria-hidden="true"></i> 9167349132</a></li>
+           <li><a href="tel:9320291846"><i class="fa fa-caret-right" aria-hidden="true"></i> 9320291846</a></li>
+          
+          </ul>
+         
+          <div class="top-social-icon">
+            <ul>
+              <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            
+              <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li class="linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bot-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="copy"> © 2020 HP Laptop Services Centre . All Rights Reserved.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+   <script type="text/javascript">
+       $(function() {;
+           ($.randm = function() {
+               var first = Math.floor(Math.random() * 10) + 1;
+               var last = Math.floor(Math.random() * 10) + 1;
+               $("#htmlform").data("cap", first + last);
+               $(".captcha").text(first + " + " + last);
+           })()
+           $('#submit').on('click', function(event) {
+               event.preventDefault();
+
+               var $this = $(this);
+               var $form = $(this).parents('form:first');
+               var idata = $("#htmlform").data("cap");
+
+               if (idata != parseInt($("#capval").val())) {
+                   $('.success-message')
+                       .fadeTo('slow', 1, function() {})
+                       .text(response.msg)
+                       .delay(2000)
+                       .fadeTo('slow', 0, function() {});
+                   return false;
+               }
+
+               $.ajax({
+                  url: 'send_email.php',
+                  type: 'POST',
+                  dataType: 'json',
+                  data: $form.serialize(),
+                  success: function(response){
+                     console.log('response', response)
+                     if(response.msg){
+                        $.randm();
+                        $('.success-message')
+                            .fadeTo('slow', 1, function() {})
+                            .text(response.msg)
+                            .delay(2000)
+                            .fadeTo('slow', 0, function() {});
+                        $this.addClass('disabled')
+                     }
+                  }
+               })
+
+
+           })
+       })
+    </script>
+<script>
+	$(function() {
+		//$('[data-spzoom]').spzoom();
+	});
+</script>
+</body>
+</html>
